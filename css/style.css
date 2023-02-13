@@ -1,0 +1,551 @@
+/*
+======================
+HEADER SECTION START
+======================
+*/
+.header-section .menu-bar{
+    background-color: rgb(75, 16, 52) ;
+   
+}
+.header-section .menu-bar .navbar-brand{
+    padding-bottom: 15px;
+}
+.header-section .menu-bar .navbar-nav .nav-item .nav-link{
+    color: rgb(247, 239, 239);
+    text-transform: uppercase;
+    font-size: 17px;
+  
+}
+.header-section .menu-bar .navbar-nav .nav-item .nav-link:hover{
+    color: rgb(251, 255, 0);
+}
+/*
+======================
+HEADER SECTION END
+======================
+*/
+/*
+======================
+BANNER SECTION STARTbackground:rgb(140, 201, 140);
+======================
+*/
+.banner-area{
+    height: 100px;
+    background-image: url('../images/bg/cta-bg.jpg');
+    position: center;
+}
+.banner-area button{
+    background: rgb(238, 199, 101);
+    color:rgb(219, 8, 8);
+    border:navy;
+    padding: 15px 50px;
+    border-radius: 40px;
+    font-size: 20px;
+    font-weight: medium;
+    transition: all 1s ease;
+}
+.banner-area button:hover{
+    background: rgb(129, 2, 2);
+    color:white;
+}
+
+
+/*
+======================
+BANNER SECTION END
+======================
+*/
+
+/*
+======================
+PRODUCT SECTION START
+======================
+*/
+#product-area{
+    background: rgb(221, 216, 216);
+}
+.af1{
+    margin-left: 535px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.before1{
+	width: 10px;
+	height: 10px;
+	background-color: blueviolet;
+	display: inline-block;
+	transform: rotate(45deg);
+	position: relative;
+}
+
+
+.befo1{
+	width: 10px;
+	height: 10px;
+	background-color: blueviolet;
+	display: inline-block;
+	transform: rotate(45deg);
+}
+.be1{
+	width: 10px;
+	height: 10px;
+	background-color: blueviolet;
+	display: inline-block;
+	transform: rotate(45deg);
+}
+.line1{
+	width: 110px;
+	height: 3px;
+	background-color: rgba(252,170,164);
+	
+	margin-bottom: 3px;
+	display: inline-block;
+
+}
+#product-area .imc{
+    border-left:3px solid rgb(163, 129, 129);
+    border-bottom: 3px solid rgb(75, 4, 4);
+    border-top: 3px solid rgb(75, 4, 4);
+    border-right:3px solid rgb(187, 92, 92);
+   
+    padding-left: 8px;
+    padding-right: 9px;
+    margin-left: 2px;
+    margin-bottom: 60px;
+}
+#product-area .imc1{
+    border-left:3px solid rgb(163, 129, 129);
+    border-bottom: 3px solid rgb(75, 4, 4);
+    border-top: 3px solid rgb(75, 4, 4);
+    border-right:3px solid rgb(187, 92, 92);
+   
+    padding-left: 8px;
+    padding-right: 9px;
+    margin-left: 2px;
+    margin-bottom: 60px;
+}
+#product-area .imc button{
+    background: rgb(238, 199, 101);
+    color:blue;
+    border:none;
+    padding:6px 13px;
+    border-radius:15px;
+    margin-left: 185px;
+    margin-bottom: 20px;
+    transition: all 1s ease;
+}
+#product-area .imc button:hover{
+    background: rgb(129, 2, 2);
+    color:white;
+}
+/*
+======================
+PRODUCT SECTION END
+======================
+*/
+/*
+===========================
+TEAM MEMBER SECTION START
+===========================
+*/
+.team{
+	background-color: rgb(75, 39, 104);
+}
+
+
+h2{
+	font-size:25px;
+	color:mediumvioletred;
+	padding-top: 100px;
+	margin-bottom: 5px;
+	text-transform: uppercase;
+	text-align: center;
+	text-shadow: 1px 1px 1px  rgb(247, 247, 241);
+}
+.af{
+    margin-left: 425px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.before{
+	width: 10px;
+	height: 10px;
+	background-color: blueviolet;
+	display: inline-block;
+	transform: rotate(45deg);
+	position: relative;
+}
+
+
+.befo{
+	width: 10px;
+	height: 10px;
+	background-color: blueviolet;
+	display: inline-block;
+	transform: rotate(45deg);
+}
+.be{
+	width: 10px;
+	height: 10px;
+	background-color: blueviolet;
+	display: inline-block;
+	transform: rotate(45deg);
+}
+.line{
+	width: 110px;
+	height: 3px;
+	background-color: rgba(252,170,164);
+	
+	margin-bottom: 3px;
+	display: inline-block;
+
+}
+.img-group{
+       padding-bottom: 130px;
+
+}
+.img-group .padding-around{
+	padding-bottom: 0px;
+}
+.img-group img{
+	width:100%;
+	height: 270px;
+	border-radius: 45px 4px 45px 4px;
+	position: relative;
+	margin-top: 10px;
+    margin-left: 30px;
+}
+
+.d-none{
+		display: none;
+	}
+.ewh{
+	position: relative;
+	
+}
+.img-group .ewh .i1{
+      border-bottom: 1px maroon;
+}
+.each-when-hover{
+    position: absolute;
+	width: 80%;
+	height: 248px;
+	background-color: rgb(223, 9, 116);
+	left:127px;
+	top: 30px;
+	right: 0px;
+	bottom: 0px;
+	border-radius: 45px 4px 45px 2px;
+	margin-top: -8px;
+	margin-left: -59px;
+	transform: scale(0);
+	transition: 1s;
+	opacity: 0.4;
+	
+}
+.ewh:hover .each-when-hover{
+	transform: scale(1);
+}
+
+
+.each-when-hover span {
+	color: rgb(253, 251, 251);
+	font-size: 15px;
+	font-weight:lighter ;
+	text-transform: uppercase;
+	position: absolute;
+	top:70%;
+	left:50%;
+    transform: translateX(-70%);
+	
+}
+
+/*
+========================
+TEAM MEMBER SECTION END
+========================
+*/
+
+
+/*
+======================
+SERVICE  SECTION START
+======================
+*/
+#service-section{
+    background-color: #e8eaee;
+   padding-bottom: 190px;
+}
+.af2{
+    margin-left: 425px;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+.af2 .before{
+	width: 10px;
+	height: 10px;
+	background-color: blueviolet;
+	display: inline-block;
+	transform: rotate(45deg);
+	position: relative;
+}
+
+
+.af2 .befo{
+	width: 10px;
+	height: 10px;
+	background-color: blueviolet;
+	display: inline-block;
+	transform: rotate(45deg);
+}
+.af2 .be{
+	width: 10px;
+	height: 10px;
+	background-color: blueviolet;
+	display: inline-block;
+	transform: rotate(45deg);
+}
+.af2 .line{
+	width: 110px;
+	height: 3px;
+	background-color: rgba(252,170,164);
+	
+	margin-bottom: 3px;
+	display: inline-block;
+
+}
+#service-section .service{
+   text-align: center;
+   padding-bottom: 55px;
+}
+#service-section .service button{
+    text-transform: uppercase;
+    color: rgb(80, 76, 76);
+    background-color: white;
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    border:none;
+    font-size: 13px ;
+    font-weight: bold;
+    transition: 1.s all ease;
+}
+#service-section .service button:hover{
+     background-color: rgb(248, 181, 56);
+}
+#service-section .service .active{
+    background-color: rgb(255, 165, 0);
+}
+#service-section .service button+button{
+    margin-left: 10px;
+}
+#service-section .service-img .img-item{
+    position: relative;
+}
+#service-section .service-img .img-item img{
+    max-width: 100%;
+   
+   
+}
+.padding-around{
+    padding: 20px;
+}
+
+#service-section .service-img .img-item .img-contentt{
+     max-width: 100%;
+     position: absolute;
+     top: 74%;
+     bottom: 0;
+     left: 0;
+     right: 0;
+     margin-left: 19px;
+     margin-right: 19px;
+}
+#service-section .service-img .img-item .img-contentt .img-contentt-link{
+    width: 70%;
+    height: auto;
+    background: white;
+    float: left;
+}
+#service-section .service-img .img-item .img-contentt .img-contentt-link a{
+    text-decoration: none;
+    transition: 1.3s all ease;                /* why my transition isn't work*/
+
+}
+#service-section .service-img .img-item .img-contentt .img-contentt-link a h4{
+    color: rgb(26, 23, 23);
+    font-size: 20px;
+    padding-left: 14px;
+    padding-top: 4px;
+}
+#service-section .service-img .img-item .img-contentt .img-contentt-link a p{
+    color: rgb(105, 101, 101);
+    padding-left: 10px;
+    margin-bottom: 5px;
+   
+}
+#service-section .service-img .img-item .img-contentt .img-contentt-link a :hover{
+    color:orange;
+}
+/*
+========================
+SERVICE  SECTION END
+========================
+*/
+
+/*
+======================
+CONTUCT SECTION START
+======================
+*/
+.af3{
+    margin-left: 425px;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+.af3 .before{
+	width: 10px;
+	height: 10px;
+	background-color: blueviolet;
+	display: inline-block;
+	transform: rotate(45deg);
+	position: relative;
+}
+
+
+.af3 .befo{
+	width: 10px;
+	height: 10px;
+	background-color: blueviolet;
+	display: inline-block;
+	transform: rotate(45deg);
+}
+.af3 .be{
+	width: 10px;
+	height: 10px;
+	background-color: blueviolet;
+	display: inline-block;
+	transform: rotate(45deg);
+}
+.af3 .line{
+	width: 110px;
+	height: 3px;
+	background-color: rgba(252,170,164);
+	
+	margin-bottom: 3px;
+	display: inline-block;
+
+}
+#contuct input[type=text]{
+    width: 230px;
+    height: 50px;
+    border-top:transparent;
+    border-left: transparent;
+    border-right: transparent;
+    background: rgb(243, 213, 136);
+    border-bottom: 1px solid rgb(172, 165, 172);
+    padding-left: 12px;
+    margin-bottom: 8px;
+    text-transform:capitalize;
+}
+#contuct input[type=email]{
+    width: 230px;
+    height: 50px;
+    border-top:transparent;
+    border-left: transparent;
+    border-right: transparent;
+    background: rgb(243, 213, 136);
+    border-bottom: 1px solid rgb(172, 165, 172);
+    padding-left: 12px;
+    text-transform:capitalize;
+}
+#contuct input[type=password]{
+    width: 230px;
+    height: 50px;
+    border-top:transparent;
+    border-left: transparent;
+    border-right: transparent;
+    background: rgb(243, 213, 136);
+    margin-left: 20px;
+    border-bottom: 1px solid rgb(172, 165, 172);
+    padding-left: 12px;
+    text-transform:capitalize;
+}
+#contuct input[type=number]{
+    width: 230px;
+    height: 50px;
+    border-top:transparent;
+    border-left: transparent;
+    border-right: transparent;
+    background: rgb(243, 213, 136);
+    margin-left: 20px;
+    border-bottom: 1px solid rgb(172, 165, 172);
+    padding-left: 12px;
+    text-transform:capitalize;
+}
+#contuct .bt{
+   margin-top: 19px;
+   padding-left: 222px;
+   padding-bottom: 70px;
+
+}
+#contuct .bt .bt3{
+     width: 90px;
+     height: 30px;
+     margin-left: 25px;
+     border: none;
+     background-color: rgb(161, 76, 76);
+     border-radius: 20px;
+     transition: all 1s ease;
+}
+#contuct .bt .bt3:hover{
+    background: rgb(241, 177, 177);
+}
+#contuct .bt .bt4{
+    width: 90px;
+    height: 30px;
+    margin-left: 10px;
+    border: none;
+    background-color: rgb(161, 76, 76);
+    border-radius: 20px;
+    transition: all 1s ease;
+}
+#contuct .bt .bt4:hover{
+    background: rgb(241, 177, 177);
+}
+/*
+======================
+CONTUCT SECTION END
+======================
+*/
+/*
+======================
+FOOTER SECTION START
+======================
+*/
+.footer-area .footer-right  a input[type=email]{
+    width: 200px;
+    height: 40px;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background: rgb(233, 207, 207);
+    color: white ;
+    border: none;
+}
+
+.footer-area .footer-right  a input[type=submit]{
+    width: 200px;
+    height: 45px;
+    padding-left: 15px;
+    margin-top: 20px;
+    background: goldenrod;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+/*
+======================
+FOOTER SECTION END
+======================
+*/

@@ -1,0 +1,245 @@
+/*(XXL->-1400)(XL-1200)(LG-992)(MD-768)(SM-576)*/
+@media (max-width:1400px){
+    
+}
+
+@media(max-width:1200px){
+    #product-area .af1{
+        margin-left: 440px;
+    }
+    #team-member .team .af{
+        margin-left: 396px;
+    }
+    #service-section .service-img .img-item .img-contentt .img-contentt-link a h4{
+        color: rgb(26, 23, 23);
+        font-size: 14px;
+        padding-left: 10px;
+        padding-top: 3px;
+    }
+    #service-section .service-img .img-item .img-contentt .img-contentt-link a p{
+        color: rgb(105, 101, 101);
+        padding-left: 10px;
+        margin-top: -6px;
+        font-size: 13px;
+    }
+
+
+
+}
+
+
+@media(max-width:992px){
+    #product-area .af1{
+        margin-left: 350px;
+    }
+    #product-area .imc button{
+         margin-left: 60px;
+
+    }
+    #service-section .af2{
+        margin-left: 295px;
+       
+    }
+    #team-member .team .af{
+        margin-left: 320px;
+    }
+    #service-section .service button{
+        width: 55%;
+        margin-bottom: 10px;}
+    #service-section .service .active{
+        margin-left: 5px;
+    }
+      #contuct .af3{
+        margin-left: 299px;
+       }
+       #contuct input[type=text]{
+        margin-left: -160px;
+        background: rgb(243, 184, 136);
+        }
+        #contuct input[type=number]{
+           
+        background: rgb(243, 184, 136);
+       
+        }
+        #contuct input[type=email]{
+           
+        background: rgb(243, 184, 136);
+        border-bottom: 1px solid rgb(172, 165, 172);
+        margin-left: -162px;
+       }
+        #contuct input[type=password]{
+           
+        background: rgb(243, 184, 136);
+       
+       }
+       #contuct .bt{
+       padding-top: 30px;
+        padding-left:-3px;
+        
+     
+        }
+    .footer-area .footer-left{
+        text-align: center;
+    }
+    .footer-area .footer-middle{
+        text-align: center;
+    }
+    .footer-area .footer-right input[type=submit]{
+        margin-bottom: 20px;
+    }
+    #service-section .service-img .img-item .img-contentt img{
+        height: 48px;
+
+    }
+}
+
+@media(max-width:768px){
+    #product-area .af1{
+        margin-left: 230px;
+    }
+    #team-member .team .af{
+        margin-left: 130px;
+    }
+
+    #team-member .team .par{
+        margin-left: -160px;
+    }
+    #service-section .af2{
+        margin-left: 90px;
+       
+    }
+    #service-section .service button{
+        width: 55%;
+        margin-bottom: 10px;
+
+    }
+    #service-section .service .active{
+        margin-left: 5px;
+    }
+    #service-section .service-img .img-item .img-contentt .img-contentt-link a h4{
+        color: rgb(26, 23, 23);
+        font-size: 14px;
+        padding-left: 10px;
+        padding-top: 5px;
+    }
+    #service-section .service-img .img-item .img-contentt .img-contentt-link a p{
+        color: rgb(105, 101, 101);
+        padding-left: 10px;
+        padding-top: 9px;
+        font-size: 13px;
+    }
+    #service-section .service-img .img-item .img-contentt img{
+        height: 58px;
+
+    }
+    #service-section .service-img .img-item .img-contentt{
+        top:75%;
+    }
+    #contuct input[type=text]{
+    margin-left: -170px;
+    background: rgb(243, 184, 136);
+    }
+    #contuct input[type=number]{
+       
+    background: rgb(243, 184, 136);
+   
+    }
+    #contuct input[type=email]{
+       
+    background: rgb(243, 184, 136);
+    border-bottom: 1px solid rgb(172, 165, 172);
+    margin-left: -172px;
+   }
+    #contuct input[type=password]{
+       
+    background: rgb(243, 184, 136);
+   
+   }
+   #contuct .bt{
+   padding-top: 30px;
+    padding-left:-3px;
+    
+ 
+    }
+   .footer-area .footer-bottom{
+    display: none;
+   } 
+
+}
+
+@media(max-width:576px){
+      .banner-area button{
+        margin-left: -110px;
+      }
+    
+      #product-area .af1{
+        margin-left: 120px;
+    }
+
+    #team-member .team .af{
+        margin-left: 120px;
+    }
+
+    #team-member .team .par{
+        margin-left: -120px;
+    }
+    #service-section .af2{
+        margin-left: 135px;
+       
+    }
+ 
+    #service-section .service button{
+        width: 52%;
+        margin-bottom: 10px;
+
+
+    }
+    #service-section .service .active{
+        margin-left: 7px;
+    }
+  
+    #service-section .service-img .img-item .img-contentt img{
+        height: 58px;
+        padding-top: -33px;
+
+    }
+    #contuct .af3{
+        margin-left: 129px;
+    }
+    #contuct input[type=text]{
+       
+        background: rgb(243, 184, 136);
+        border-bottom: 1px solid rgb(172, 165, 172);
+        margin-left: -190px;
+    }
+    #contuct input[type=number]{
+       
+        background: rgb(243, 184, 136);
+        border-bottom: 1px solid rgb(172, 165, 172);
+        margin-left: 8px;
+    }
+    #contuct input[type=email]{
+       
+        background: rgb(243, 184, 136);
+        border-bottom: 1px solid rgb(172, 165, 172);
+        margin-left: -190px;
+    }
+    #contuct input[type=password]{
+       
+        background: rgb(243, 184, 136);
+        border-bottom: 1px solid rgb(172, 165, 172);
+        margin-left: 6px;
+    }
+    #contuct .bt{
+       
+        padding-left: 22px;
+        
+     
+     }
+
+}
+
+
+
+
+
